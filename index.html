@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macroscopic Quantum Mechanics Research Institute</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            border-bottom: 4px solid #3949ab;
+        }
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #1a237e;
+            text-decoration: none;
+            padding: 1.2rem 1.8rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+        nav a:hover {
+            background-color: #f5f5f5;
+            border-bottom-color: #3949ab;
+        }
+        .hero {
+            padding: 4rem 0;
+            text-align: center;
+            background-color: white;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #1a237e;
+            margin-bottom: 1.5rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        .section {
+            padding: 4rem 0;
+        }
+        .section-title {
+            font-size: 2rem;
+            color: #1a237e;
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #3949ab;
+            margin: 10px auto;
+            border-radius: 2px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-card h3 {
+            color: #1a237e;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        footer {
+            background-color: #1a237e;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .contact-info {
+            margin: 2rem 0;
+        }
+        .copyright {
+            margin-top: 2rem;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .logo { font-size: 2.2rem; }
+            .hero h1 { font-size: 2rem; }
+            nav a { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Macroscopic Quantum Mechanics Research Institute</div>
+            <p class="tagline">Exploring the quantum nature of gravity, celestial dynamics, and the unification of physical principles at macroscopic scales.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-container">
+            <a href="#home">Home</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#data">Data & Code</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to the Frontier</h1>
+            <p>We are an independent research institute dedicated to revisiting fundamental assumptions in physics, particularly concerning dark phenomena, gravitational interactions, and the potential for macroscopic quantum effects in celestial systems. Our work bridges rigorous theoretical inquiry with novel data-driven approaches.</p>
+            <p>Our current focus includes the Dynamics-Gravity-Centrifugal Force materialization model, tests of chiral-scale decoupling, and high-precision datasets for three-body gravitational dynamics.</p>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section-title">Research Focus</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Dynamic Gravity & Dark Phenomena</h3>
+                    <p>Reconciling observations with modified gravity by introducing dynamic gravitational components and re-examining the nature of centrifugal force, offering alternative explanations for dark matter and dark energy.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Macroscopic Quantum Signatures</h3>
+                    <p>Investigating potential quantum-gravitational effects at planetary scales, including quantized orbital angular momentum candidates and chiral-scale decoupling mechanisms in gravitational systems.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>High-Precision Celestial Datasets</h3>
+                    <p>Creating and curating benchmark dynamical datasets (e.g., Sun-Earth-Moon three-body) for testing classical and alternative gravitational theories, ensuring reproducibility and open science.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="section" style="background-color: #f0f2f5;">
+        <div class="container">
+            <h2 class="section-title">Publications & Preprints</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Ten Questions on Dark Phenomena</h3>
+                    <p>A critical examination of the foundational assumptions in dark matter and dark energy research, proposing a reconciliation path through dynamic gravity and centrifugal force materialization. <em>(Submitted)</em></p>
+                </div>
+                <div class="feature-card">
+                    <h3>High-Precision Three-Body Datasets</h3>
+                    <p>Data descriptor for curated Sun-Earth-Moon dynamical datasets, providing a benchmark for testing gravitational models. <em>(In Preparation)</em></p>
+                </div>
+                <div class="feature-card">
+                    <h3>On Decoherence and Uniform Coherence</h3>
+                    <p>A theoretical exploration of new pathways for explaining decoherence scales, with implications for macroscopic quantum state stability. <em>(In Progress)</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data" class="section">
+        <div class="container">
+            <h2 class="section-title">Open Data & Code</h2>
+            <p style="text-align: center; margin-bottom: 2rem;">We are committed to open science. Our research outputs, including datasets and analysis code, will be made publicly available here upon completion.</p>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Solar System Dynamics Data</h3>
+                    <p>High-precision ephemerides and simulation data for testing three-body gravitational interactions.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Analysis Toolkit</h3>
+                    <p>Python scripts and Jupyter notebooks for reproducing analyses and testing theoretical predictions against our data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Contact</h2>
+            <div class="contact-info">
+                <p>Macroscopic Quantum Mechanics Research Institute</p>
+                <p>Email: institute_macroqm@163.com</p>
+                <p>Website: <a href="https://macroscopicqm.github.io/institute-df-macroqm/" style="color: #bbdefb;">https://macroscopicqm.github.io/institute-df-macroqm/</a></p>
+            </div>
+            <p class="copyright">© 2025 Macroscopic Quantum Mechanics Research Institute. This website is hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
