@@ -1,2 +1,2 @@
 # institute-df-macroqm
-Macroscopic Quantum Mechanics Research Institute
+Macroscopic Quantum Mechanics Research Institute   
